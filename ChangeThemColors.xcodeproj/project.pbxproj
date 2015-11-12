@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15280CE91BF495ED00B29813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15280CE81BF495ED00B29813 /* AppDelegate.m */; };
+		15280CEC1BF495ED00B29813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15280CEB1BF495ED00B29813 /* main.m */; };
+		15280CEF1BF495ED00B29813 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15280CEE1BF495ED00B29813 /* ViewController.m */; };
+		15280CF11BF495ED00B29813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15280CF01BF495ED00B29813 /* Assets.xcassets */; };
+		15280CF41BF495ED00B29813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15280CF21BF495ED00B29813 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15280CE41BF495ED00B29813 /* ChangeThemColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeThemColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15280CE71BF495ED00B29813 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15280CE81BF495ED00B29813 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15280CEB1BF495ED00B29813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15280CED1BF495ED00B29813 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15280CEE1BF495ED00B29813 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15280CF01BF495ED00B29813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15280CF31BF495ED00B29813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15280CF51BF495ED00B29813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15280CE11BF495ED00B29813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15280CDB1BF495ED00B29813 = {
+			isa = PBXGroup;
+			children = (
+				15280CE61BF495ED00B29813 /* ChangeThemColors */,
+				15280CE51BF495ED00B29813 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15280CE51BF495ED00B29813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15280CE41BF495ED00B29813 /* ChangeThemColors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15280CE61BF495ED00B29813 /* ChangeThemColors */ = {
+			isa = PBXGroup;
+			children = (
+				15280CE71BF495ED00B29813 /* AppDelegate.h */,
+				15280CE81BF495ED00B29813 /* AppDelegate.m */,
+				15280CED1BF495ED00B29813 /* ViewController.h */,
+				15280CEE1BF495ED00B29813 /* ViewController.m */,
+				15280CF01BF495ED00B29813 /* Assets.xcassets */,
+				15280CF21BF495ED00B29813 /* Main.storyboard */,
+				15280CF51BF495ED00B29813 /* Info.plist */,
+				15280CEA1BF495ED00B29813 /* Supporting Files */,
+			);
+			path = ChangeThemColors;
+			sourceTree = "<group>";
+		};
+		15280CEA1BF495ED00B29813 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15280CEB1BF495ED00B29813 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15280CE31BF495ED00B29813 /* ChangeThemColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15280CF81BF495ED00B29813 /* Build configuration list for PBXNativeTarget "ChangeThemColors" */;
+			buildPhases = (
+				15280CE01BF495ED00B29813 /* Sources */,
+				15280CE11BF495ED00B29813 /* Frameworks */,
+				15280CE21BF495ED00B29813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangeThemColors;
+			productName = ChangeThemColors;
+			productReference = 15280CE41BF495ED00B29813 /* ChangeThemColors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15280CDC1BF495ED00B29813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ridiculous Innovations";
+				TargetAttributes = {
+					15280CE31BF495ED00B29813 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 15280CDF1BF495ED00B29813 /* Build configuration list for PBXProject "ChangeThemColors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15280CDB1BF495ED00B29813;
+			productRefGroup = 15280CE51BF495ED00B29813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15280CE31BF495ED00B29813 /* ChangeThemColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15280CE21BF495ED00B29813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15280CF11BF495ED00B29813 /* Assets.xcassets in Resources */,
+				15280CF41BF495ED00B29813 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15280CE01BF495ED00B29813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15280CEF1BF495ED00B29813 /* ViewController.m in Sources */,
+				15280CEC1BF495ED00B29813 /* main.m in Sources */,
+				15280CE91BF495ED00B29813 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15280CF21BF495ED00B29813 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15280CF31BF495ED00B29813 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15280CF61BF495ED00B29813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		15280CF71BF495ED00B29813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		15280CF91BF495ED00B29813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChangeThemColors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ridiculous-innovations.ChangeThemColors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15280CFA1BF495ED00B29813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ChangeThemColors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ridiculous-innovations.ChangeThemColors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15280CDF1BF495ED00B29813 /* Build configuration list for PBXProject "ChangeThemColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15280CF61BF495ED00B29813 /* Debug */,
+				15280CF71BF495ED00B29813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15280CF81BF495ED00B29813 /* Build configuration list for PBXNativeTarget "ChangeThemColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15280CF91BF495ED00B29813 /* Debug */,
+				15280CFA1BF495ED00B29813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15280CDC1BF495ED00B29813 /* Project object */;
+}
