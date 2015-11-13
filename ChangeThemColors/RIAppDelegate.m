@@ -6,13 +6,13 @@
 //  Copyright © 2015 Ridiculous Innovations. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "RIAppDelegate.h"
 
-@interface AppDelegate ()
+@interface RIAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation RIAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application

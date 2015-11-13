@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15280CE91BF495ED00B29813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15280CE81BF495ED00B29813 /* AppDelegate.m */; };
+		15280CE91BF495ED00B29813 /* RIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15280CE81BF495ED00B29813 /* RIAppDelegate.m */; };
 		15280CEC1BF495ED00B29813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15280CEB1BF495ED00B29813 /* main.m */; };
-		15280CEF1BF495ED00B29813 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15280CEE1BF495ED00B29813 /* ViewController.m */; };
+		15280CEF1BF495ED00B29813 /* RIHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15280CEE1BF495ED00B29813 /* RIHomeViewController.m */; };
 		15280CF11BF495ED00B29813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15280CF01BF495ED00B29813 /* Assets.xcassets */; };
 		15280CF41BF495ED00B29813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15280CF21BF495ED00B29813 /* Main.storyboard */; };
+		1549A77D1BF4B14B00F9F613 /* NSImage+RIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1549A77C1BF4B14B00F9F613 /* NSImage+RIColor.m */; };
+		1549A7801BF4BB9C00F9F613 /* NSColor+RIHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1549A77F1BF4BB9C00F9F613 /* NSColor+RIHexColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15280CE41BF495ED00B29813 /* ChangeThemColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeThemColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		15280CE71BF495ED00B29813 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		15280CE81BF495ED00B29813 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15280CE71BF495ED00B29813 /* RIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RIAppDelegate.h; sourceTree = "<group>"; };
+		15280CE81BF495ED00B29813 /* RIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIAppDelegate.m; sourceTree = "<group>"; };
 		15280CEB1BF495ED00B29813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		15280CED1BF495ED00B29813 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		15280CEE1BF495ED00B29813 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15280CED1BF495ED00B29813 /* RIHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RIHomeViewController.h; sourceTree = "<group>"; };
+		15280CEE1BF495ED00B29813 /* RIHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIHomeViewController.m; sourceTree = "<group>"; };
 		15280CF01BF495ED00B29813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15280CF31BF495ED00B29813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15280CF51BF495ED00B29813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1549A77B1BF4B14B00F9F613 /* NSImage+RIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+RIColor.h"; sourceTree = "<group>"; };
+		1549A77C1BF4B14B00F9F613 /* NSImage+RIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+RIColor.m"; sourceTree = "<group>"; };
+		1549A77E1BF4BB9C00F9F613 /* NSColor+RIHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+RIHexColor.h"; sourceTree = "<group>"; };
+		1549A77F1BF4BB9C00F9F613 /* NSColor+RIHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+RIHexColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				15280CE61BF495ED00B29813 /* ChangeThemColors */,
+				15280CEA1BF495ED00B29813 /* Supporting Files */,
 				15280CE51BF495ED00B29813 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,14 +63,10 @@
 		15280CE61BF495ED00B29813 /* ChangeThemColors */ = {
 			isa = PBXGroup;
 			children = (
-				15280CE71BF495ED00B29813 /* AppDelegate.h */,
-				15280CE81BF495ED00B29813 /* AppDelegate.m */,
-				15280CED1BF495ED00B29813 /* ViewController.h */,
-				15280CEE1BF495ED00B29813 /* ViewController.m */,
-				15280CF01BF495ED00B29813 /* Assets.xcassets */,
-				15280CF21BF495ED00B29813 /* Main.storyboard */,
-				15280CF51BF495ED00B29813 /* Info.plist */,
-				15280CEA1BF495ED00B29813 /* Supporting Files */,
+				1549A77A1BF4B11200F9F613 /* Categories */,
+				15280CFB1BF4989800B29813 /* View controllers */,
+				15280CE71BF495ED00B29813 /* RIAppDelegate.h */,
+				15280CE81BF495ED00B29813 /* RIAppDelegate.m */,
 			);
 			path = ChangeThemColors;
 			sourceTree = "<group>";
@@ -71,9 +74,33 @@
 		15280CEA1BF495ED00B29813 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				15280CF01BF495ED00B29813 /* Assets.xcassets */,
+				15280CF21BF495ED00B29813 /* Main.storyboard */,
+				15280CF51BF495ED00B29813 /* Info.plist */,
 				15280CEB1BF495ED00B29813 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = ChangeThemColors;
+			sourceTree = "<group>";
+		};
+		15280CFB1BF4989800B29813 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				15280CED1BF495ED00B29813 /* RIHomeViewController.h */,
+				15280CEE1BF495ED00B29813 /* RIHomeViewController.m */,
+			);
+			name = "View controllers";
+			sourceTree = "<group>";
+		};
+		1549A77A1BF4B11200F9F613 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1549A77B1BF4B14B00F9F613 /* NSImage+RIColor.h */,
+				1549A77C1BF4B14B00F9F613 /* NSImage+RIColor.m */,
+				1549A77E1BF4BB9C00F9F613 /* NSColor+RIHexColor.h */,
+				1549A77F1BF4BB9C00F9F613 /* NSColor+RIHexColor.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15280CEF1BF495ED00B29813 /* ViewController.m in Sources */,
+				15280CEF1BF495ED00B29813 /* RIHomeViewController.m in Sources */,
+				1549A77D1BF4B14B00F9F613 /* NSImage+RIColor.m in Sources */,
 				15280CEC1BF495ED00B29813 /* main.m in Sources */,
-				15280CE91BF495ED00B29813 /* AppDelegate.m in Sources */,
+				15280CE91BF495ED00B29813 /* RIAppDelegate.m in Sources */,
+				1549A7801BF4BB9C00F9F613 /* NSColor+RIHexColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +316,7 @@
 				15280CFA1BF495ED00B29813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
